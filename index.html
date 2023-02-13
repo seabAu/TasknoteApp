@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task List</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="form-elements.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Task List</h1>
+        <section class="form-container">
+
+            <form id="new-task-form">
+                <input type="text" class="form-input" name="new-task-input" id="new-task-input" placeholder="Add a task">
+                <button type="submit" class="button form-button" value="Add Task" id="new-task-submit">Add Task</button>
+            </form>
+        </section>
+        <hr class="hr">
+        <section class="list-container">
+            <div id="tasks-list" class="tasks-list">
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
